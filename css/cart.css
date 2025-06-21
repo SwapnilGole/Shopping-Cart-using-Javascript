@@ -1,0 +1,109 @@
+.shoppingCart{
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:1rem auto;
+    padding:2rem 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    width:500px;
+}
+.label{
+    margin:0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.label button{
+    border: none;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    font-size:medium;
+    margin:0.5rem 0;
+    font-weight: 600;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.3s linear;
+    color:#fff;
+    background-color: #000;
+    border:1px solid #333;
+}
+.label button:hover{
+    color:#333;
+    background-color:#fff;
+    
+}
+.label a{
+    color:#fff;
+}
+
+.cartBox{
+    margin:1rem auto;
+
+}
+.productBox{
+    display: flex;
+    width:400px;
+    height:100px;
+    position: relative;
+    margin:1rem 0;
+    border-radius:0.75rem;
+    box-shadow: 0 -2px 8px rgba(178, 103, 103, 0.2);
+}
+.productImg img{
+    border-radius: 0.75rem 0 0 0.75rem;
+}
+.productDetails{
+    width: 100%;
+    padding:0.5rem;
+}
+.productInfo,
+.productQuantity{
+    /* width:100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:1rem 0;
+}
+.productQuantity{
+    margin:1rem 0;
+}
+.removeProduct{
+    position: absolute;
+    top:0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.removeProduct .deleteProductBtn{
+    padding:0.25rem;
+    border-radius: 50%;
+    color:#000;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+.removeProduct .deleteProductBtn:hover{
+    color:#fff;
+}
+.removeProduct .deleteProductBtn i{
+    width:15px;
+    height:15px;
+    font-weight: 600;
+}
+
+.totalBill{
+    font-weight: bold;
+}
+.billAmt{
+    color:#e81e1e;
+}
+.cartPageBtnBox button{
+    margin:0.5rem;;
+}

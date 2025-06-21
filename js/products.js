@@ -1,0 +1,72 @@
+let products = [
+        {   
+            "id":"p1",
+            "name":"logitech keyboardMouse",
+            "details":"Logitech keyboard and mouse",
+            "price":"999",
+            "imageUrl":"./productImages/logitech_keyboardmouse.jpg"
+        },
+        {   
+            "id":"p2",
+            "name":"Leather Jacket",
+            "details":"Leather jacket for all terrain",
+            "price":"1499",
+            "imageUrl":"./productImages/leather_jacket.jpg"
+        },
+        {   
+            "id":"p3",
+            "name":"Levi's Shirt",
+            "details":"Casual office cotton shirt",
+            "price":"799",
+            "imageUrl":"./productImages/cotton_shirt.jpg"
+        },
+        {   
+            "id":"p4",
+            "name":"Dell laptop",
+            "details":"Laptop from college to office work",
+            "price":"39999",
+            "imageUrl":"./productImages/dell_laptop.jpg"
+        },
+        {   
+            "id":"p5",
+            "name":"Samsung s25 ultra",
+            "details":"Samsung s25 ultra with 200px camera",
+            "price":"109999",
+            "imageUrl":"./productImages/samsung_s25ultra.jpg"
+        },
+        {   
+            "id":"p6",
+            "name":"logitech keyboardMouse",
+            "details":"Logitech keyboard and mouse",
+            "price":"999",
+            "imageUrl":"./productImages/logitech_keyboardmouse.jpg"
+        },
+        {   
+            "id":"p7",
+            "name":"Leather Jacket",
+            "details":"Leather jacket for all terrain",
+            "price":"1499",
+            "imageUrl":"./productImages/leather_jacket.jpg"
+        },
+        {   
+            "id":"p8",
+            "name":"Levi's Shirt",
+            "details":"Casual office cotton shirt",
+            "price":"799",
+            "imageUrl":"./productImages/cotton_shirt.jpg"
+        },
+        {   
+            "id":"p9",
+            "name":"Dell laptop",
+            "details":"Laptop from college to office work",
+            "price":"39999",
+            "imageUrl":"./productImages/dell_laptop.jpg"
+        },
+        {   
+            "id":"p10",
+            "name":"Samsung s25 ultra",
+            "details":"Samsung s25 ultra with 200px camera",
+            "price":"109999",
+            "imageUrl":"./productImages/samsung_s25ultra.jpg"
+        }
+    ]
